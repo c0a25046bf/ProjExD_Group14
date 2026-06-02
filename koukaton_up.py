@@ -179,7 +179,7 @@ def update_player(player, keys, platforms, goal_block, jump_sound):
                 player._image = pygame.transform.flip(player.image_original, True, False)
 
             # ジャンプチャージ
-            if keys[pygame.K_SPACE]:
+            if keys[pygame.K_SPACE]:a
                 player.set_is_charging(True)
                 current_power = player.get_charge_power()
                 if current_power < player.get_max_charge():
